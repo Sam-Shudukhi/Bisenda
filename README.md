@@ -70,6 +70,7 @@ store verification).
 
 
 * Software Quality Requirements:
+
          * Qualities Regarding Guests:
 - Correctness
 Search engine: provides exactly the items what a user wants to find. Including a list of items that are similar to the searched for item.
