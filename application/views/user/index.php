@@ -47,13 +47,13 @@
 
 
   <div class="container">
-    <?php $attributes = array("class" => "form-horizontal", "id" => "adminloginform", "name" => "adminloginform");
-    echo form_open("Admin/index", $attributes);
+    <?php $attributes = array("class" => "form-horizontal", "id" => "loginform", "name" => "loginform");
+    echo form_open("user/User/index", $attributes);
     ?>
     <form class="form-signin">
-      <h2 class="form-signin-heading">Administration!</h2>
+      <h2 class="form-signin-heading">Welcome Back!</h2>
       <label for="txt_email" class="sr-only">Email address</label>
-      <input class="form-control" id="txt_email" name="txt_email" placeholder="Email address" type="text" value="<?php echo set_value('txt_email'); ?>" required autofocus />
+      <input class="form-control" id="txt_email" name="txt_email" placeholder="Email address" type="email" value="<?php echo set_value('txt_email'); ?>" required autofocus />
       <span class="text-danger"><?php echo form_error('txt_email'); ?></span>
       
       <label for="txt_password" class="control-label">Password</label>
@@ -63,6 +63,9 @@
       <div class="checkbox">
         <label>
           <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <label>
+          <a href='<?php echo base_url();?>user/User/registration'> | Signup </a>
         </label>
       </div>
       
