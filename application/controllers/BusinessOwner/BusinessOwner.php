@@ -175,7 +175,7 @@ class BusinessOwner extends CI_Controller {
         $config['smtp_host'] = 'ssl://smtp.gmail.com'; //smtp host name
         $config['smtp_port'] = '465'; //smtp port number
         $config['smtp_user'] = 'bisendatech@gmail.com';
-        $config['smtp_pass'] = 'b123456781'; //$from_email password
+        $config['smtp_pass'] = '****'; //$from_email password
         $config['mailtype'] = 'html';
         $config['charset'] = 'iso-8859-1';
         $config['wordwrap'] = TRUE;
@@ -1032,7 +1032,7 @@ public function reservition($lid)
         $config['smtp_host'] = 'ssl://smtp.gmail.com'; //smtp host name
         $config['smtp_port'] = '465'; //smtp port number
         $config['smtp_user'] = 'bisendatech@gmail.com';
-        $config['smtp_pass'] = 'b123456781'; //$from_email password
+        $config['smtp_pass'] = '****'; //$from_email password
         $config['mailtype'] = 'html';
         $config['charset'] = 'iso-8859-1';
         $config['wordwrap'] = TRUE;
@@ -1101,7 +1101,7 @@ public function reservition($lid)
         $config['smtp_host'] = 'ssl://smtp.gmail.com'; //smtp host name
         $config['smtp_port'] = '465'; //smtp port number
         $config['smtp_user'] = 'bisendatech@gmail.com';
-        $config['smtp_pass'] = 'b123456781'; //$from_email password
+        $config['smtp_pass'] = '****'; //$from_email password
         $config['mailtype'] = 'html';
         $config['charset'] = 'iso-8859-1';
         $config['wordwrap'] = TRUE;
