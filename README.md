@@ -2,7 +2,7 @@
 Marketing solutions for businesses and stores to grow customer base through deals/coupons, customer subscriptions, broadcasting latest news, reservations, and more. Businesses/Stores list their business and gain all marketing accessibilities at no cost. 
 Bisenda is an entirely new system and a separate identity that stands on its own. However, there are a few aspects of Bisenda are inspired from other popular online telephone directory of businesses and reviews/reservations such as YellowPages and Yelp.
 
-Demo [a link](https://bis-up.000webhostapp.com)
+[Demo](https://bis-up.000webhostapp.com)
 
 - Tools and Languages:
 * Built on a LAMP environment.
